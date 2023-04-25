@@ -100,21 +100,21 @@ body {
 .services {
   --padding: 0.9375rem;
 
-  padding-inline-start: var(--padding);
-
   @include breakpoint {
     --padding: 7.5rem;
 
     margin-inline: auto;
     padding: var(--padding);
-    padding-block-start: 0;
     width: min(100%, var(--content-width));
   }
 }
 
 #services--heading {
+  padding-inline-start: var(--padding);
+
   @include breakpoint {
     text-align: center;
+    padding-inline-start: 0;
   }
 }
 
@@ -150,7 +150,7 @@ body {
 }
 
 .card {
-  --padding: 1.5rem;
+  --card-padding: 1.5rem;
 
   flex-direction: column;
   justify-content: space-between;
@@ -158,12 +158,16 @@ body {
 
   position: relative;
 
-  padding: var(--padding);
+  padding: var(--card-padding);
   border: 2px solid var(--clr-neutral-400);
   background-color: transparent;
 
+  &:first-of-type {
+    margin-inline-start: var(--padding);
+  }
+
   &:last-of-type {
-    margin-inline-end: var(--padding);
+    margin-inline-end: var(--card-padding);
 
     @include breakpoint {
       margin-inline-end: 0;
