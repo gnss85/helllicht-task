@@ -3,3 +3,9 @@
     @content;
   }
 }
+
+@mixin breakpoint-l {
+  @media (min-width: 80rem) {
+    @content;
+  }
+}
