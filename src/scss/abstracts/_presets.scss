@@ -1,0 +1,106 @@
+/* ---- FONTS ---- */
+
+@font-face {
+  font-family: "Inter";
+  src: url("./../assets/fonts/Inter-VariableFont_slnt-wght.woff2")
+    format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+/* ---- CUSTOM PROPERTIES ---- */
+
+:root {
+  --hsl-clr-primary: 13 82% 59%;
+  --hsl-clr-secondary: 216 17% 23%;
+
+  --hsl-clr-neutral-100: 0 0% 100%;
+  --hsl-clr-neutral-200: 0 0% 98%;
+  --hsl-clr-neutral-400: 0 0% 74%;
+  --hsl-clr-neutral-600: 0 0% 45%;
+  --hsl-clr-neutral-800: 0 0% 20%;
+
+  --hsl-clr-bg: 0 0% 96%;
+
+  --clr-primary: hsl(var(--hsl-clr-primary));
+  --clr-secondary: hsl(var(--hsl-clr-secondary));
+  --clr-neutral-100: hsl(var(--hsl-clr-neutral-100));
+  --clr-neutral-200: hsl(var(--hsl-clr-neutral-200));
+  --clr-neutral-400: hsl(var(--hsl-clr-neutral-400));
+  --clr-neutral-600: hsl(var(--hsl-clr-neutral-600));
+  --clr-neutral-800: hsl(var(--hsl-clr-neutral-800));
+
+  --clr-bg: hsl(var(--hsl-clr-bg));
+
+  --font-family-default: "Inter", sans-serif;
+
+  --fw-100: 100;
+  --fw-200: 200;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+  --fw-900: 900;
+
+  --fs-100: 0.5rem;
+  --fs-200: 0.875rem;
+  --fs-300: 1rem;
+  --fs-text: 1.125rem;
+  --fs-500: 1.25rem;
+  --fs-h3-mobile: 1.875rem;
+  --fs-h3: 2.25rem;
+  --fs-h2: 3rem;
+  --fs-900: 4rem;
+  --fs-special: 5rem;
+
+  --lh-link: 1.375rem;
+  --lh-description: 1.5rem;
+  --lh-text: 1.75rem;
+  --lh-h4: 1.75rem;
+  --lh-h3: 2.75rem;
+  --lh-h2: 3.625rem;
+
+  --content-width: 90rem;
+}
+
+/* ---- GENERAL STYLING ----*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.grid-flow {
+  display: grid;
+}
+
+.flex-flow {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}

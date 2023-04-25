@@ -1,0 +1,32 @@
+[
+  {
+    "type": "is-primary",
+    "headline": "Think wide.",
+    "subHeadline": "Strategy, Ideation, Consulting",
+    "text": "Wer im komplexen digitalen Umfeld erfolgreich sein will, muss das große Ganze verstehen.",
+    "link": {
+      "url": "#",
+      "label": "Mehr erfahren"
+    }
+  },
+  {
+    "type": "is-secondary",
+    "headline": "Build deep.",
+    "subHeadline": "UX/UI Design, Fullstack Development, Content Creation",
+    "text": "Wir sind überzeugt: Eine gute Strategie bedarf einer noch besseren Umsetzung.",
+    "link": {
+      "url": "#",
+      "label": "Mehr erfahren"
+    }
+  },
+  {
+    "type": "",
+    "headline": "Grow fast.",
+    "subHeadline": "SEO/SEA, Social Media/Paid, Data & Analytics",
+    "text": "Ein Projekt ins Leben zu rufen ist einfach, es jedoch erfolgreich großwerden zu sehen, ist die Königsdisziplin.",
+    "link": {
+      "url": "#",
+      "label": "Mehr erfahren"
+    }
+  }
+]
