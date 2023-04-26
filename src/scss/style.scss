@@ -72,7 +72,7 @@ body {
   padding-inline: var(--padding);
 
   @include breakpoint {
-    --padding: 3.5rem;
+    --padding: 7.5rem;
 
     margin-inline: auto;
     width: min(100%, var(--content-width));
